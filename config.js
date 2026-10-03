@@ -178,4 +178,22 @@ const REELS = [
     poster: "",
     caption: ""
   },
+  {
+    id: "piZG51nTyxer",
+    src: "reels/27.mp4",
+    poster: "",
+    caption: ""
+  },
+  {
+    id: "piZhlonTyxer",
+    src: "reels/28.mp4",
+    poster: "",
+    caption: ""
+  },
+  {
+    id: "piZG5ftTyxer",
+    src: "reels/29.mp4",
+    poster: "",
+    caption: ""
+  },
 ];
