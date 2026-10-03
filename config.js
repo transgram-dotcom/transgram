@@ -21,19 +21,19 @@ const LIKES = { min: -67, max: -67 };
 // profile = optional, overrides PROFILE for this one reel only
 const REELS = [
   {
-    id: "",
+    id: "ntOvZZKVhu",
     src: "reels/01.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "HBRUCUXlKx",
     src: "reels/02.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "VCVpJucpIm",
     src: "reels/03.mp4",
     poster: "",
     caption: "",
@@ -41,139 +41,139 @@ const REELS = [
     // profile: { name: "friendname", avatar: "assets/friend.jpg", link: "https://example.com" }
   },
   {
-    id: "",
+    id: "bqbAvvFDVg",
     src: "reels/04.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "cbzAuDmsqX",
     src: "reels/05.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "AAgqQIonRe",
     src: "reels/06.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "jaVbsVZJBB",
     src: "reels/07.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "TLxGzgPqEt",
     src: "reels/08.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "ikCfAcsvzl",
     src: "reels/09.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "qZNLhxAGXt",
     src: "reels/10.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "CCLKxHkduR",
     src: "reels/11.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "yPKtBpqVfx",
     src: "reels/12.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "seiwGsgDEN",
     src: "reels/13.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "dqvyJBvqtd",
     src: "reels/14.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "ndPTQtCaot",
     src: "reels/15.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "vZPAzQodaFzE",
     src: "reels/16.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "bxbIZYKSFVZx",
     src: "reels/17.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "MqyPXHhlPKbZ",
     src: "reels/18.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "SpealwiCLuXq",
     src: "reels/19.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "zxKjgGvZxpWV",
     src: "reels/20.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "crHFiYZpnNTV",
     src: "reels/21.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "bieJyVABZinM",
     src: "reels/22.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "WncHsSuHRMJg",
     src: "reels/23.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "JUWZcLPTYHWx",
     src: "reels/24.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "PYDyEtQxlCLs",
     src: "reels/25.mp4",
     poster: "",
     caption: ""
   },
   {
-    id: "",
+    id: "piZGCWnTyxer",
     src: "reels/26.mp4",
     poster: "",
     caption: ""
