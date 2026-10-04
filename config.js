@@ -5,10 +5,13 @@
 // Your profile, shown on every reel
 const PROFILE = {
   name: "Hizra_Arifin_67",
-  avatar: "assets/avatar.jpg",            // path to your profile picture
-  link: "https://www.canvaqr.com/RGT_RsyPPv", // where the name/picture links to
-  verified: false                          // show the blue tick (true/false)
+  avatar: "assets/avatar.jpg",
+  link: "https://www.canvaqr.com/RGT_RsyPPv",
+  verified: false,
+  buttonText: "Visit",                   // text on the button beside the name
+  buttonLink: "https://your-link-here.com" // where the button goes (leave "" to hide it)
 };
+
 
 // Range for the random like count shown on each page load
 const LIKES = { min: -67, max: -67 };
