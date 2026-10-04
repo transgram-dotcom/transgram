@@ -37,6 +37,18 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+      <div class="reel-info">
+        <div class="profile-row">
+          <a class="profile" href="${esc(p.link)}" target="_blank" rel="noopener noreferrer">
+            <span class="avatar-ring"><img src="${esc(p.avatar)}" alt="${esc(p.name)}" loading="lazy"></span>
+            <span class="name">${esc(p.name)}</span>
+            ${p.verified ? ICONS.verified : ''}
+          </a>
+          ${p.buttonLink ? `<a class="profile-cta" href="${esc(p.buttonLink)}" target="_blank" rel="noopener noreferrer">${esc(p.buttonText || 'Visit')}</a>` : ''}
+        </div>
+        ${reel.caption ? `<p class="caption">${esc(reel.caption)}</p>` : ''}
+      </div>
+
   <script src="config.js"></script>
   <script src="app.js"></script>
 </body>
