@@ -371,3 +371,61 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+/* Swipe-up hint */
+.swipe-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+  z-index: 7;
+  transform: translateX(-50%);
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+.swipe-hint.hide { opacity: 0; }
+.swipe-hint-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: swipeUp 1.8s ease-in-out infinite;
+}
+.swipe-hint svg {
+  width: 34px; height: 34px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-top: -16px;
+  filter: drop-shadow(0 0 6px rgba(110,243,255,0.6));
+}
+@keyframes swipeUp {
+  0%   { transform: translateY(30px);  opacity: 0; }
+  30%  { opacity: 0.4; }
+  70%  { opacity: 0.4; }
+  100% { transform: translateY(-30px); opacity: 0; }
+}
+
+/* Profile row + text button */
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.profile-cta {
+  padding: 5px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--glass);
+  border: 1px solid rgba(255,255,255,0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: border-color .25s, box-shadow .25s, transform .15s;
+}
+.profile-cta:hover { border-color: var(--cyan); box-shadow: 0 0 16px rgba(110,243,255,0.35); }
+.profile-cta:active { transform: scale(0.95); }
