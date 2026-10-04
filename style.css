@@ -391,7 +391,7 @@ body {
   animation: swipeUp 1.8s ease-in-out infinite;
 }
 .swipe-hint svg {
-  width: 34px; height: 34px;
+  width: 64px; height: 64px;
   fill: none;
   stroke: #fff;
   stroke-width: 2.2;
