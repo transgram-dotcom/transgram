@@ -8,8 +8,8 @@ const PROFILE = {
   avatar: "assets/avatar.jpg",
   link: "https://www.canvaqr.com/RGT_RsyPPv",
   verified: false,
-  buttonText: "Information",                   // text on the button beside the name
-  buttonLink: "https://www.canvaqr.com/RGT_RsyPPv" // where the button goes (leave "" to hide it)
+  // buttonText: "Information",                   // text on the button beside the name
+  // buttonLink: "" // where the button goes (leave "" to hide it)
 };
 
 
