@@ -13,7 +13,10 @@
     verified: '<svg class="verified" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#3897f0"/><path d="M7 12.5l3 3 7-7" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
   };
 
-  const state = { muted: true, active: -1, items: [] };
+  const state = { muted: false, active: -1, items: [] };
+  let autoMuted = false;   // true when the browser forced mute before any interaction
+  const hint = document.getElementById('swipeHint');
+  let firstActive = null;
 
   // Saved likes (the heart stays red after a refresh)
   const LIKED_KEY = 'reels_liked_v1';
